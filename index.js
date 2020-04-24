@@ -20,9 +20,10 @@ function produceTipCalculator(rate){
     }
 }
 
-function createDriver(){
+function createDriver(name){
     let driverId = 0;
     return {
-        driverId: driverId++
+        driverId: driverId++,
+        name
     };
 }
